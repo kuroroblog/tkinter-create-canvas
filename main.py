@@ -25,7 +25,7 @@ class Application(tk.Frame):
         # 色について : https://kuroro.blog/python/YcZ6Yh4PswqUzaQXwnG2/
         canvas = tk.Canvas(frame, width=500, height=500, background="white")
 
-        # 楕円を描く関数
+        # create_oval : 楕円を描く関数
         # create_ovalについて : https://kuroro.blog/python/ANyM9WLpd0LSXRQAELOj/
         canvas.create_oval(200, 100, 10, 20, fill='black')
 
